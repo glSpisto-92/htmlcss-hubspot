@@ -13,6 +13,20 @@ header{
 position: relative;
 }
 
+small{
+  display: block;
+  margin: 20px 0;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  line-height: 25px;
+  margin: 20px 0;
+}
+
 /* mix */
 .clearfix:after{
   content: '';
@@ -74,7 +88,7 @@ position: relative;
   border: 1px solid #ff7a59;
   color: #ff7a59;
   padding: 6px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .btn-color{
@@ -119,8 +133,32 @@ position: relative;
 
 /* hero/banner */
 .hero-banner{
+  position: relative;
   background-image: url('../img/jumbotron.png');
-  height: 695px;
-  /* background-position: right;
-  background-size: cover; */
+  height: 700px;
+  background-position: right;
+  background-size: cover;
 }
+
+.text-hero{
+  position: absolute;
+  left: 235px;
+  top: 100px;
+  width: 30%;
+}
+
+.text-hero a{
+  font-size: 20px;
+}
+
+.barra-vuota{
+  width: 100%;
+  height: 70px;
+  background: #66ffe0;
+
+  position: absolute;
+  bottom: -70px;
+  border-top:2px solid black;
+  border-bottom: 2px solid black;
+}
+/* fine hero banner */
