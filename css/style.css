@@ -20,11 +20,27 @@ small{
 
 h2{
   font-size: 40px;
+  color: #33475b;
+}
+
+h3{
+  font-size: 24px;
+  color: #33475b;
+}
+
+h4{
+  font-size: 18px;
+  color: #33475b;
 }
 
 p{
   line-height: 25px;
   margin: 20px 0;
+  color: #33475b;
+}
+
+main{
+  background: #f5f8fa;
 }
 
 /* mix */
@@ -135,7 +151,7 @@ p{
 .hero-banner{
   position: relative;
   background-image: url('../img/jumbotron.png');
-  height: 700px;
+  height: 800px;
   background-position: right;
   background-size: cover;
 }
@@ -155,10 +171,86 @@ p{
   width: 100%;
   height: 70px;
   background: #66ffe0;
-
   position: absolute;
-  bottom: -70px;
+  bottom: 0px;
   border-top:2px solid black;
   border-bottom: 2px solid black;
 }
 /* fine hero banner */
+
+/* sottosezione main */
+.container-section{
+  background-color: #f5f8fa;
+}
+
+.subtitle-section{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.subtitle-section img{
+  text-align: center;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.subtitle-section p{
+  padding: 0 300px;
+}
+/*fine sottosezione main */
+
+/* section row 1 */
+.row-1{
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon-button{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.icon-button img{
+  width: 30%;
+  margin: 50px;
+}
+
+.icon-button ul li{
+  list-style: none;
+}
+
+.icon-button ul li a{
+  font-size: 20px;
+  padding: 25px;
+}
+
+.text-row-1{
+  width: 50%;
+  float: left;
+  margin: 50px;
+}
+
+.text-row-1 p{
+  font-size: 16px;
+}
+
+.text-row-1 h5{
+  text-transform: uppercase;
+}
+
+.text-row-1 ul li {
+  list-style:  none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.check-orange{
+  color: red;
+  margin: 0 20px;
+}
