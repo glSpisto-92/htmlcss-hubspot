@@ -10,15 +10,26 @@ body{
 }
 
 header{
-  border-bottom: 1px solid black;
-  background-color: #f5f8fa;
+position: relative;
+}
+
+/* mix */
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
 }
 
 /* navbar 1  */
-.nav-bar-1{
+.nav-bar{
+  height: 70px;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid black;
+}
+
+.bar-content{
   width: 75%;
   margin: auto;
-  height: 70px;
 }
 
 .list-style {
@@ -71,3 +82,45 @@ header{
   color: white;
 }
 /* fine navbar-1 */
+
+/* navbar-2 */
+.nav-bar-2{
+  width: 75%;
+  margin: auto;
+}
+
+.nav-bar-2 img{
+  float:left;
+  width: 8%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.nav-menu{
+  float: right;
+  width: 80%;
+  text-align: right;
+}
+
+.nav-menu li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-menu li a{
+  margin: 20px 0;
+  color: grey;
+}
+
+.angle-down-2{
+  padding: 15px;
+}
+/*fine navbar-2 */
+
+/* hero/banner */
+.hero-banner{
+  background-image: url('../img/jumbotron.png');
+  height: 695px;
+  /* background-position: right;
+  background-size: cover; */
+}
