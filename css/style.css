@@ -4,3 +4,70 @@
   padding: 0;
   margin: 0;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  border-bottom: 1px solid black;
+  background-color: #f5f8fa;
+}
+
+/* navbar 1  */
+.nav-bar-1{
+  width: 75%;
+  margin: auto;
+  height: 70px;
+}
+
+.list-style {
+  float: left;
+  width: 80%;
+  margin: 20px 0;
+  color: grey;
+}
+
+.list-style li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.angle-down-1{
+  padding-right: 15px;
+  border-right: 1px solid black;
+}
+
+.list-style li:last-child{
+  margin-left: 10px;
+}
+
+.list-style-2 {
+  width: 20%;
+  float: right;
+  margin: 20px 0;
+}
+
+.list-style-2 li,a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.search-1{
+  color: lightgreen;
+}
+
+.btn{
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.btn-color{
+  background: #ff7a59;
+  color: white;
+}
+/* fine navbar-1 */
