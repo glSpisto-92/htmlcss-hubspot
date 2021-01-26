@@ -26,6 +26,7 @@ h2{
 
 h3{
   font-size: 26px;
+  font-weight: bold;
   color: #33475b;
 }
 
@@ -36,7 +37,7 @@ h4{
 
 p{
   line-height: 25px;
-  margin: 20px 0;
+  margin: 18px 0;
   color: #33475b;
   font-size: 16px;
 }
@@ -45,13 +46,29 @@ main{
   background: #f5f8fa;
 }
 
-/* mix */
+/* mix  di classi*/
 .clearfix:after{
   content: '';
   display: block;
   clear: both;
 }
 
+.btn{
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.btn-color{
+  background: #ff7a59;
+  color: white;
+}
+
+.check-orange{
+  color: #ff7a59;
+  margin: 0 20px 0 0;
+}
 /* navbar 1  */
 .nav-bar{
   height: 70px;
@@ -100,18 +117,6 @@ main{
 
 .search-1{
   color: lightgreen;
-}
-
-.btn{
-  border: 1px solid #ff7a59;
-  color: #ff7a59;
-  padding: 6px;
-  border-radius: 4px;
-}
-
-.btn-color{
-  background: #ff7a59;
-  color: white;
 }
 /* fine navbar-1 */
 
@@ -264,11 +269,6 @@ main{
   width: 60%;
   vertical-align: middle;
 }
-
-.check-orange{
-  color: #ff7a59;
-  margin: 0 20px 0 0;
-}
 /* fine sezione row 1 */
 
 /* sezione a 3 colonne */
@@ -320,7 +320,6 @@ main{
 }
 /* sezione info e color gradient */
 .row-3{
-  height: 600px;
   background-image: linear-gradient(to right, #00a4bd, #00bda5);
   margin-top: 50px;
 }
@@ -334,4 +333,40 @@ main{
 
 .special-text{
   color: white;
+}
+
+.gradient-p{
+  font-size: 14px;
+  color: white;
+}
+
+.container-gradient{
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.box-gradient{
+  width: 25%;
+  height: 200px;
+  float: left;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.box-gradient img{
+  width: 25%;
+  height: 60px;
+  margin: 0 20px;
+}
+
+.number-bold{
+  font-weight: bolder;
+  font-size: 38px;
+  color: white;
+}
+
+#plus{
+  font-size: 22px;
 }
