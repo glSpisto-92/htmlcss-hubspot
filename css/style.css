@@ -53,6 +53,11 @@ main{
   clear: both;
 }
 
+.container-box{
+  width: 75%;
+  margin: auto;
+}
+
 .btn{
   border: 1px solid #ff7a59;
   color: #ff7a59;
@@ -71,26 +76,21 @@ main{
 }
 /* navbar 1  */
 .nav-bar{
-  height: 70px;
   background-color: #f5f8fa;
   border-bottom: 1px solid black;
 }
 
-.bar-content{
-  width: 75%;
-  margin: auto;
-}
-
 .list-style {
   float: left;
-  width: 80%;
   margin: 20px 0;
   color:#33475b;
+  line-height: 2;
 }
 
 .list-style li{
   display: inline-block;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 .angle-down-1{
@@ -103,7 +103,6 @@ main{
 }
 
 .list-style-2 {
-  width: 20%;
   float: right;
   margin: 20px 0;
 }
@@ -113,19 +112,15 @@ main{
   text-decoration: none;
   list-style: none;
   padding-left: 10px;
+  vertical-align: middle;
 }
 
 .search-1{
-  color: lightgreen;
+  color: #66ccff;
 }
 /* fine navbar-1 */
 
 /* navbar-2 */
-.nav-bar-2{
-  width: 75%;
-  margin: auto;
-}
-
 .nav-bar-2 img{
   float:left;
   width: 8%;
@@ -135,7 +130,6 @@ main{
 
 .nav-menu{
   float: right;
-  width: 80%;
   text-align: right;
 }
 
@@ -186,13 +180,7 @@ main{
 /* fine hero banner */
 
 /* sottosezione main */
-.container-section{
-  background-color: #f5f8fa;
-}
-
 .subtitle-section{
-  width: 75%;
-  margin: auto;
   text-align: center;
 }
 
@@ -209,8 +197,6 @@ main{
 
 /* section row 1 */
 .row{
-  width: 75%;
-  margin: auto;
   background: white;
   border-radius: 5px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
@@ -246,6 +232,7 @@ main{
 
 .text-row p{
   font-size: 16px;
+  margin: 25px 0;
 }
 
 .text-row h5{
@@ -272,11 +259,6 @@ main{
 /* fine sezione row 1 */
 
 /* sezione a 3 colonne */
-.row-2{
-  width: 75%;
-  margin: auto;
-}
-
 .col{
   width:30%;
   border-radius: 5px;
@@ -325,8 +307,6 @@ main{
 }
 
 .title-sect-gradient{
-  width: 70%;
-  margin: auto;
   text-align: center;
   padding-top: 40px;
 }
@@ -341,24 +321,34 @@ main{
 }
 
 .container-gradient{
-  width: 70%;
-  margin: auto;
-  padding: 30px;
   text-align: center;
+}
+
+.container-gradient:not(:last-child){
+  border-bottom: 1px solid white;
+}
+
+.container-gradient:last-child{
+  padding-bottom: 50px;
+}
+
+.container-gradient:first-child{
+  padding-top: 50px;
 }
 
 .box-gradient{
   width: 25%;
-  height: 200px;
   float: left;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
 }
 
 .box-gradient img{
   width: 25%;
   height: 60px;
   margin: 0 20px;
+}
+
+.box-gradient:not(:last-child){
+  border-right: 1px solid white;
 }
 
 .number-bold{
@@ -369,4 +359,15 @@ main{
 
 #plus{
   font-size: 22px;
+}
+
+.container-sponsor{
+  width: 65%;
+  margin: auto;
+}
+
+.sponsor-box-text{
+  height: 400px;
+  padding-top: 80px;
+  float: left;
 }

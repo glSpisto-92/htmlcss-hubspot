@@ -4,17 +4,16 @@
     <title>Hubspot</title>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container-page">
       <!-- intestazione pagina (header,navbar ed hero) -->
       <header>
-        <div class="nav-bar">
-          <div class="bar-content">
+        <div class="nav-bar clearfix">
+          <div class="container-box">
             <ul class="list-style">
               <li><i class="fas fa-globe-europe"></i></li>
               <li><a href="#">English <i class="fas fa-angle-down angle-down-1"></i></a></li>
@@ -29,16 +28,18 @@
         </div>
 
         <!-- nav-bar-2 -->
-        <div class="nav-bar-2 clearfix">
-          <img src="img/logo.svg" alt="">
-          <nav>
-            <ul class="nav-menu">
-              <li><a href="#">Software<i class="fas fa-angle-down angle-down-2"></i></a></li>
-              <li><a href="#">Pricing Resources<i class="fas fa-angle-down angle-down-2"></i></a></li>
-              <li><a href="#">Partners<i class="fas fa-angle-down angle-down-2"></i></a></li>
-              <li><a href="#">About<i class="fas fa-angle-down angle-down-2"></i></a></li>
-            </ul>
-          </nav>
+        <div class="container-box">
+          <div class="nav-bar-2 clearfix">
+            <img src="img/logo.svg" alt="">
+            <nav>
+              <ul class="nav-menu">
+                <li><a href="#">Software<i class="fas fa-angle-down angle-down-2"></i></a></li>
+                <li><a href="#">Pricing Resources<i class="fas fa-angle-down angle-down-2"></i></a></li>
+                <li><a href="#">Partners<i class="fas fa-angle-down angle-down-2"></i></a></li>
+                <li><a href="#">About<i class="fas fa-angle-down angle-down-2"></i></a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
 
         <!-- hero -->
@@ -46,7 +47,7 @@
           <div class="text-hero">
             <h2>There's a better way to grow.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="btn btn-color">Get hubspot free</a>
+            <a href="#" class="btn btn-color">Get Hubspot Free</a>
             <small>Get started with FREE tools,and upgrade as you grow.</small>
           </div>
           <div class="barra-vuota"></div>
@@ -56,7 +57,7 @@
 
       <!-- contenuto della pagina (sezioni varie) -->
       <main>
-        <div class="container-section">
+        <div class="container-box">
           <div class="subtitle-section">
             <img src="img/Integrations_Illustration@2x.webp" alt="">
             <h3>Powerful Alone. Better Togheter</h3>
@@ -65,30 +66,32 @@
         </div>
         <!-- sezione/row 1 -->
         <section>
-          <div class="row clearfix">
-            <div class="icon-button">
-              <img src="img/CRM-illustration.svg" alt="">
-              <ul>
-                <li><a href="#" class="btn btn-color">Learn More</a></li>
-              </ul>
-            </div>
+          <div class="container-box">
+            <div class="row clearfix">
+              <div class="icon-button">
+                <img src="img/CRM-illustration.svg" alt="">
+                <ul>
+                  <li><a href="#" class="btn btn-color">Learn More</a></li>
+                </ul>
+              </div>
 
-            <div class="text-row">
-              <h4>Free HubSpost CRM</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <h5>popolar feature</h5>
-              <hr class="hr-feature">
-              <ul>
-                <li><i class="fas fa-check-circle check-orange"></i>Contact Insight</li>
-                <li><i class="fas fa-check-circle check-orange"></i>Deals</li>
-                <li><i class="fas fa-check-circle check-orange"></i>Task</li>
-              </ul>
+              <div class="text-row">
+                <h4>Free HubSpost CRM</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5>popolar feature</h5>
+                <hr class="hr-feature">
+                <ul>
+                  <li><i class="fas fa-check-circle check-orange"></i>Contact Insight</li>
+                  <li><i class="fas fa-check-circle check-orange"></i>Deals</li>
+                  <li><i class="fas fa-check-circle check-orange"></i>Task</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
         <!-- sezione row 2 con 3 colonne -->
         <section>
-          <div class="row-2 clearfix">
+          <div class="container-box clearfix">
             <div class="col">
               <img class="img-col" src="img/Marketing-Hub-Free.svg" alt="">
               <h4>Marketing Hub</h4>
@@ -135,57 +138,72 @@
         <!-- section info e color gradient -->
         <section>
           <div class="row-3">
-            <div class="title-sect-gradient">
+            <div class="container-box title-sect-gradient">
               <h3 class="special-text">Learn and grow with award-winning support and a thriving community behind you.</h3>
               <p class="special-text gradient-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
             </div>
 
-            <div class="container-gradient clearfix">
-              <div class="box-gradient">
-                <img src="img/homepage_community_agency.svg" alt="">
-                <h3 class="number-bold">150<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_blog.svg" alt="">
-                <h3 class="number-bold">4.5M<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_academy.svg" alt="">
-                <h3 class="number-bold">155K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_inbound.svg" alt="">
-                <h3 class="number-bold">21K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_inbound.svg" alt="">
-                <h3 class="number-bold">21K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_inbound.svg" alt="">
-                <h3 class="number-bold">21K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_inbound.svg" alt="">
-                <h3 class="number-bold">21K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
-              <div class="box-gradient">
-                <img src="img/homepage_community_inbound.svg" alt="">
-                <h3 class="number-bold">21K<span id="plus">+</span></h3>
-                <p class="gradient-p">Hubspot user group</p>
-              </div>
+            <div class="container-box">
+              <div class="container-gradient clearfix">
+
+                <div class="box-gradient">
+                  <img src="img/homepage_community_agency.svg" alt="">
+                  <h3 class="number-bold">150<span id="plus">+</span></h3>
+                  <p class="gradient-p">Hubspot user group</p>
+                </div>
+                <div class="box-gradient">
+                  <img src="img/homepage_community_blog.svg" alt="">
+                  <h3 class="number-bold">4.5M<span id="plus">+</span></h3>
+                  <p class="gradient-p">Hubspot user group</p>
+                </div>
+                <div class="box-gradient">
+                  <img src="img/homepage_community_academy.svg" alt="">
+                  <h3 class="number-bold">155K<span id="plus">+</span></h3>
+                  <p class="gradient-p">Hubspot user group</p>
+                </div>
+                <div class="box-gradient">
+                  <img src="img/homepage_community_inbound.svg" alt="">
+                  <h3 class="number-bold">21K<span id="plus">+</span></h3>
+                  <p class="gradient-p">Hubspot user group</p>
+                </div>
+                </div>
+
+                <div class="container-gradient clearfix">
+                  <div class="box-gradient">
+                    <img src="img/homepage_community_inbound.svg" alt="">
+                    <h3 class="number-bold">21K<span id="plus">+</span></h3>
+                    <p class="gradient-p">Hubspot user group</p>
+                  </div>
+                  <div class="box-gradient">
+                    <img src="img/homepage_community_inbound.svg" alt="">
+                    <h3 class="number-bold">21K<span id="plus">+</span></h3>
+                    <p class="gradient-p">Hubspot user group</p>
+                  </div>
+                  <div class="box-gradient">
+                    <img src="img/homepage_community_inbound.svg" alt="">
+                    <h3 class="number-bold">21K<span id="plus">+</span></h3>
+                    <p class="gradient-p">Hubspot user group</p>
+                  </div>
+                  <div class="box-gradient">
+                    <img src="img/homepage_community_inbound.svg" alt="">
+                    <h3 class="number-bold">21K<span id="plus">+</span></h3>
+                    <p class="gradient-p">Hubspot user group</p>
+                  </div>
+                </div>
             </div>
+        </section>
+
+        <section>
+          <div class="container-sponsor">
+            <div class="sponsor-box-text">
+              <h3>64,500</h3>
+              <p>customers in over 100<br>countries growing their<br>business with HubSpot</p>
+            </div>
+
           </div>
         </section>
       </main>
-      <!--fine contenuto della pagina (sezioni varie) -->
+        <!--fine contenuto della pagina (sezioni varie) -->
 
       <!-- footer e credits -->
       <footer>
