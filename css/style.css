@@ -394,7 +394,7 @@ footer{
 }
 /* section bottom sponsor */
 .section-sponsor-bottom{
-  width: 40%;
+  width: 60%;
   float: left;
   margin-top: 50px;
 }
@@ -409,15 +409,15 @@ footer{
 }
 
 .img-sponsor-bottom{
-  text-align: right;
-  width: 60%;
+  text-align: center;
+  width: 40%;
   float: left;
 }
 
 .woman{
-  width: 30%;
+  width: 50%;
 }
-/* footer */
+/* foote/ credits e condition */
 .list-footer{
   width: 25%;
   text-align: left;
