@@ -96,6 +96,10 @@ footer{
   line-height: 2;
 }
 
+.list-style a{
+  color:#33475b;
+}
+
 .list-style li{
   display: inline-block;
   text-decoration: none;
@@ -107,21 +111,21 @@ footer{
   border-right: 1px solid black;
 }
 
-.list-style li:last-child{
-  margin-left: 10px;
-}
-
 .list-style-2 {
   float: right;
   margin: 20px 0;
 }
 
-.list-style-2 li, a {
+.list-style-2 li{
   display: inline-block;
-  text-decoration: none;
   list-style: none;
   padding-left: 10px;
   vertical-align: middle;
+}
+
+ a{
+  display: inline-block;
+  text-decoration: none;
 }
 
 .search-1{
@@ -434,6 +438,13 @@ footer{
   line-height: 2;
 }
 
+.list-footer li a{
+  margin: 0;
+}
+
+.list-footer li a:hover{
+  text-decoration: underline;
+}
 
 #btn-footer{
   font-size: 12px;
@@ -478,4 +489,8 @@ footer{
 .condition{
   float: right;
   margin-top: 20px;
+}
+
+.condition li a{
+  margin: 0;
 }
