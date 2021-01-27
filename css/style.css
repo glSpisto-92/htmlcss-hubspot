@@ -118,7 +118,6 @@ main{
 .search-1{
   color: #66ccff;
 }
-/* fine navbar-1 */
 
 /* navbar-2 */
 .nav-bar-2 img{
@@ -146,7 +145,6 @@ main{
 .angle-down-2{
   padding: 15px;
 }
-/*fine navbar-2 */
 
 /* hero/banner */
 .hero-banner{
@@ -177,7 +175,6 @@ main{
   border-top:2px solid black;
   border-bottom: 2px solid black;
 }
-/* fine hero banner */
 
 /* sottosezione main */
 .subtitle-section{
@@ -193,7 +190,6 @@ main{
 .subtitle-section p{
   padding: 0 300px;
 }
-/*fine sottosezione main */
 
 /* section row 1 */
 .row{
@@ -256,7 +252,6 @@ main{
   width: 60%;
   vertical-align: middle;
 }
-/* fine sezione row 1 */
 
 /* sezione a 3 colonne */
 .col{
@@ -342,9 +337,10 @@ main{
 }
 
 .box-gradient img{
-  width: 25%;
+  width: 20%;
   height: 60px;
   margin: 0 20px;
+  padding-top: 20px;
 }
 
 .box-gradient:not(:last-child){
@@ -359,15 +355,55 @@ main{
 
 #plus{
   font-size: 22px;
+  vertical-align: middle;
 }
-
+/* sezione sponsor */
 .container-sponsor{
   width: 65%;
   margin: auto;
 }
 
 .sponsor-box-text{
-  height: 400px;
+  width: 50%;
   padding-top: 80px;
   float: left;
+  margin-bottom: 40px;
 }
+
+.img-sponsor{
+  text-align: right;
+  float: left;
+}
+
+.sponsor-img{
+  vertical-align: middle;
+  width: calc(25% - 4px);
+  margin: 10px 0;
+  padding: 0 15px;
+}
+/* section bottom sponsor */
+.section-sponsor-bottom{
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+}
+
+.section-sponsor-bottom p{
+  font-size: 14px;
+}
+
+.section-sponsor-bottom a{
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.img-sponsor-bottom{
+  text-align: right;
+  width: 60%;
+  float: left;
+}
+
+.woman{
+  width: 30%;
+}
+/* footer */
