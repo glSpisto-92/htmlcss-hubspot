@@ -170,8 +170,7 @@ footer{
 
 .text-hero{
   position: absolute;
-  left: 235px;
-  top: 100px;
+  padding-top: 100px;
   width: 30%;
 }
 
